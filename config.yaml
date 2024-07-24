@@ -1,0 +1,24 @@
+baseURL: '/'
+languageCode: 'en-ie'
+title: 'Stranded Output'
+copyright: "Shane Kitt (CC BY 4.0)"
+theme: 'hugo-bearcub'
+
+params:
+  dateFormat: "January 2 2006"
+  themeStyle: styles
+  madeWith: "Made with hugo (gohugo.io)"
+
+menu:
+  main:
+    - name: Home
+      weight: 10
+      pageref: /
+    - name: Blog
+      weight: 20
+      pageref: /blog
+    - name: Links
+      weight: 30
+      pageref: /links
+
+enableEmoji: true

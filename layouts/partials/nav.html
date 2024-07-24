@@ -1,0 +1,5 @@
+{{ range .Site.Menus.main }}
+    <a class="button-30" href="{{ .URL }}">{{ .Name }}</a>| 
+{{ end }}
+<a class="button-30" href='{{ absURL "index.xml" }}'>RSS</a>
+
